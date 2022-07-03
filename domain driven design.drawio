@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-03T06:22:12.717Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="I9vKTVh5hBvHZ0JE0uql" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-03T06:26:22.963Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="hinCobPxBPjCZqHrIIpP" version="20.0.4" type="github">
   <diagram id="o0IBLR_WmbubAZ78KdnO" name="Domain Primitive">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,19 +13,37 @@
           <mxGeometry x="330" y="60" width="380" height="120" as="geometry" />
         </mxCell>
         <mxCell id="xhAw2geh87z7_WKdA8rC-4" value="三个原则" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=14;align=left;" vertex="1" parent="1">
-          <mxGeometry x="130" y="680" width="100" height="50" as="geometry" />
+          <mxGeometry x="130" y="715" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xhAw2geh87z7_WKdA8rC-6" value="四个维度" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=14;align=left;" vertex="1" parent="1">
           <mxGeometry x="130" y="410" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;" edge="1" parent="1" source="xhAw2geh87z7_WKdA8rC-9" target="xhAw2geh87z7_WKdA8rC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;" edge="1" parent="1" source="xhAw2geh87z7_WKdA8rC-9" target="xhAw2geh87z7_WKdA8rC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;" edge="1" parent="1" source="xhAw2geh87z7_WKdA8rC-9" target="xhAw2geh87z7_WKdA8rC-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xhAw2geh87z7_WKdA8rC-9" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(33, 37, 41); font-family: system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;接口的清晰度&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=14;align=left;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;" edge="1" parent="1" source="xhAw2geh87z7_WKdA8rC-13" target="xhAw2geh87z7_WKdA8rC-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xhAw2geh87z7_WKdA8rC-13" value="&lt;span style=&quot;color: rgb(33, 37, 41); font-family: system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;数据验证和错误处理&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=14;align=left;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="380" width="170" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;" edge="1" parent="1" source="xhAw2geh87z7_WKdA8rC-15" target="xhAw2geh87z7_WKdA8rC-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xhAw2geh87z7_WKdA8rC-15" value="&lt;span style=&quot;color: rgb(33, 37, 41); font-family: system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;业务逻辑代码的清晰度&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=14;align=left;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="440" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;" edge="1" parent="1" source="xhAw2geh87z7_WKdA8rC-16" target="xhAw2geh87z7_WKdA8rC-48">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xhAw2geh87z7_WKdA8rC-16" value="&lt;font face=&quot;system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot; color=&quot;#212529&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;可测试性&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=14;align=left;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="500" width="170" height="60" as="geometry" />
@@ -68,6 +86,18 @@
             <mxPoint x="640" y="630" as="sourcePoint" />
             <mxPoint x="830" y="420" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-42" value="接口参数是否容易混淆" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;align=left;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="315" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-44" value="方法是否参杂业务无法的判断" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;align=left;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-46" value="业务是否包含无关的逻辑" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;align=left;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-48" value="测试案例是否为指数性增加" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;align=left;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="500" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
