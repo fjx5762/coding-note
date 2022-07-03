@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-03T06:14:36.031Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="JTNjuXfRy2BxdJC0q37c" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-03T06:22:12.717Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="I9vKTVh5hBvHZ0JE0uql" version="20.0.4" type="github">
   <diagram id="o0IBLR_WmbubAZ78KdnO" name="Domain Primitive">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,14 +9,14 @@
             <mxGeometry x="130" y="90" width="150" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="xhAw2geh87z7_WKdA8rC-2" value="定义:&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(33, 37, 41); font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;不从任何其他事物发展而来&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;box-sizing: border-box; color: rgb(33, 37, 41); font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(33, 37, 41); font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;初级的形成或生长的早期阶段&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=14;align=left;" vertex="1" parent="1">
-          <mxGeometry x="130" y="160" width="290" height="100" as="geometry" />
+        <mxCell id="xhAw2geh87z7_WKdA8rC-2" value="&lt;span style=&quot;color: rgb(33, 37, 41); font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;DP是一个完整的概念整体，具备精准的定义&lt;br&gt;DP是一个传统意义上的ValueObject 无状态且不可变的&lt;br&gt;DP可以是业务最小组成部分，DP之间可以是组合关系&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=14;align=left;" vertex="1" parent="1">
+          <mxGeometry x="330" y="60" width="380" height="120" as="geometry" />
         </mxCell>
         <mxCell id="xhAw2geh87z7_WKdA8rC-4" value="三个原则" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=14;align=left;" vertex="1" parent="1">
           <mxGeometry x="130" y="680" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xhAw2geh87z7_WKdA8rC-6" value="四个维度" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=14;align=left;" vertex="1" parent="1">
-          <mxGeometry x="130" y="390" width="100" height="60" as="geometry" />
+          <mxGeometry x="130" y="410" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xhAw2geh87z7_WKdA8rC-9" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(33, 37, 41); font-family: system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;接口的清晰度&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=14;align=left;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="320" width="120" height="60" as="geometry" />
