@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-03T06:26:22.963Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="hinCobPxBPjCZqHrIIpP" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-03T06:35:29.705Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="g_kKQX0oFzXjeh4BN3pf" version="20.0.4" type="github">
   <diagram id="o0IBLR_WmbubAZ78KdnO" name="Domain Primitive">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,6 +98,81 @@
         </mxCell>
         <mxCell id="xhAw2geh87z7_WKdA8rC-48" value="测试案例是否为指数性增加" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;align=left;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-63" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1140" width="530" height="311" as="geometry" />
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-64" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="xhAw2geh87z7_WKdA8rC-63">
+          <mxGeometry width="530" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-65" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="xhAw2geh87z7_WKdA8rC-64">
+          <mxGeometry width="130" height="78" as="geometry">
+            <mxRectangle width="130" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-66" value="DTO" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="xhAw2geh87z7_WKdA8rC-64">
+          <mxGeometry x="130" width="224" height="78" as="geometry">
+            <mxRectangle width="224" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-67" value="PO" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="xhAw2geh87z7_WKdA8rC-64">
+          <mxGeometry x="354" width="176" height="78" as="geometry">
+            <mxRectangle width="176" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-68" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="xhAw2geh87z7_WKdA8rC-63">
+          <mxGeometry y="78" width="530" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-69" value="功能" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="xhAw2geh87z7_WKdA8rC-68">
+          <mxGeometry width="130" height="77" as="geometry">
+            <mxRectangle width="130" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-70" value="数据传输" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="xhAw2geh87z7_WKdA8rC-68">
+          <mxGeometry x="130" width="224" height="77" as="geometry">
+            <mxRectangle width="224" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-71" value="代表业务域中的概念" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="xhAw2geh87z7_WKdA8rC-68">
+          <mxGeometry x="354" width="176" height="77" as="geometry">
+            <mxRectangle width="176" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-72" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="xhAw2geh87z7_WKdA8rC-63">
+          <mxGeometry y="155" width="530" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-73" value="数据的关联" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="xhAw2geh87z7_WKdA8rC-72">
+          <mxGeometry width="130" height="78" as="geometry">
+            <mxRectangle width="130" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-74" value="无关联，按需存放数据" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="xhAw2geh87z7_WKdA8rC-72">
+          <mxGeometry x="130" width="224" height="78" as="geometry">
+            <mxRectangle width="224" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-75" value="数据之间高相关性" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="xhAw2geh87z7_WKdA8rC-72">
+          <mxGeometry x="354" width="176" height="78" as="geometry">
+            <mxRectangle width="176" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-76" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="xhAw2geh87z7_WKdA8rC-63">
+          <mxGeometry y="233" width="530" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-77" value="行为&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="xhAw2geh87z7_WKdA8rC-76">
+          <mxGeometry width="130" height="78" as="geometry">
+            <mxRectangle width="130" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-78" value="无行为" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="xhAw2geh87z7_WKdA8rC-76">
+          <mxGeometry x="130" width="224" height="78" as="geometry">
+            <mxRectangle width="224" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhAw2geh87z7_WKdA8rC-79" value="拥有业务域的行为逻辑" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="xhAw2geh87z7_WKdA8rC-76">
+          <mxGeometry x="354" width="176" height="78" as="geometry">
+            <mxRectangle width="176" height="78" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
