@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-07-03T06:35:29.705Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="g_kKQX0oFzXjeh4BN3pf" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-03T07:44:23.773Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="99O4dP1KJZscYg2DolSx" version="20.0.4" type="github" pages="2">
   <diagram id="o0IBLR_WmbubAZ78KdnO" name="Domain Primitive">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <UserObject label="参考文章" link="https://segmentfault.com/a/1190000020270851" id="xhAw2geh87z7_WKdA8rC-1">
+        <UserObject label="参考文章" link="https://zhuanlan.zhihu.com/p/340911587" id="xhAw2geh87z7_WKdA8rC-1">
           <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;sketch=1;" vertex="1" parent="1">
             <mxGeometry x="130" y="90" width="150" height="40" as="geometry" />
           </mxCell>
@@ -173,6 +173,109 @@
           <mxGeometry x="354" width="176" height="78" as="geometry">
             <mxRectangle width="176" height="78" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="e6WRcSk255Bg2cV_zGF1" name="Entity &amp; Domain Service">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JNcnS_u63ziuaeYBeUZ9-1" value="&lt;ul style=&quot;padding: 0px; margin: 1.4em 0px; display: table; color: rgb(18, 18, 18); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: medium; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;list-style: none; display: table-row;&quot; data-pid=&quot;pDZ3PgiH&quot;&gt;&lt;span style=&quot;font-weight: 600; font-synthesis: style;&quot;&gt;独立于框架：&lt;/span&gt;架构不应该依赖某个外部的库或框架，不应该被框架的结构所束缚。&lt;/li&gt;&lt;li style=&quot;list-style: none; display: table-row;&quot; data-pid=&quot;sBjOW1mj&quot;&gt;&lt;span style=&quot;font-weight: 600; font-synthesis: style;&quot;&gt;独立于UI：&lt;/span&gt;前台展示的样式可能会随时发生变化（今天可能是网页、明天可能变成console、后天是独立app），但是底层架构不应该随之而变化。&lt;/li&gt;&lt;li style=&quot;list-style: none; display: table-row;&quot; data-pid=&quot;Yf8Zfy38&quot;&gt;&lt;span style=&quot;font-weight: 600; font-synthesis: style;&quot;&gt;独立于底层数据源：&lt;/span&gt;无论今天你用MySQL、Oracle还是MongoDB、CouchDB，甚至使用文件系统，软件架构不应该因为不同的底层数据储存方式而产生巨大改变。&lt;/li&gt;&lt;li style=&quot;list-style: none; display: table-row;&quot; data-pid=&quot;gnN_Oru6&quot;&gt;&lt;span style=&quot;font-weight: 600; font-synthesis: style;&quot;&gt;独立于外部依赖：&lt;/span&gt;无论外部依赖如何变更、升级，业务的核心逻辑不应该随之而大幅变化。&lt;/li&gt;&lt;li style=&quot;list-style: none; display: table-row;&quot; data-pid=&quot;HTdCQHek&quot;&gt;&lt;span style=&quot;font-weight: 600; font-synthesis: style;&quot;&gt;可测试：&lt;/span&gt;无论外部依赖了什么数据库、硬件、UI或者服务，业务的逻辑应该都能够快速被验证正确性。&lt;/li&gt;&lt;/ul&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="337" y="30" width="490" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="JNcnS_u63ziuaeYBeUZ9-3" value="&lt;br&gt;由外部依赖的变化导致内部系统改造的程度判断代码的可维护性" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="110" y="640" width="350" height="120" as="geometry" />
+        </mxCell>
+        <UserObject label="参考文章" link="https://zhuanlan.zhihu.com/p/343388831" id="ubuPuly70hXiZkEZ4ams-1">
+          <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;sketch=1;" vertex="1" parent="1">
+            <mxGeometry x="130" y="90" width="150" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="wv85PT69GQOxw_p691W_-2" value="Entity 领域实体类&lt;br&gt;&lt;br&gt;拥有状态、可以内聚DP" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="124" y="510" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-1" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="70" y="960" width="530" height="311" as="geometry" />
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="oEX1PyAN_TCCJpofBaqS-1">
+          <mxGeometry width="530" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-3" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="oEX1PyAN_TCCJpofBaqS-2">
+          <mxGeometry width="130" height="78" as="geometry">
+            <mxRectangle width="130" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-4" value="数据库DO" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="oEX1PyAN_TCCJpofBaqS-2">
+          <mxGeometry x="130" width="224" height="78" as="geometry">
+            <mxRectangle width="224" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-5" value="领域Entity" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="oEX1PyAN_TCCJpofBaqS-2">
+          <mxGeometry x="354" width="176" height="78" as="geometry">
+            <mxRectangle width="176" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="oEX1PyAN_TCCJpofBaqS-1">
+          <mxGeometry y="78" width="530" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-7" value="功能" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="oEX1PyAN_TCCJpofBaqS-6">
+          <mxGeometry width="130" height="77" as="geometry">
+            <mxRectangle width="130" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-8" value="单纯的数据库表映射" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="oEX1PyAN_TCCJpofBaqS-6">
+          <mxGeometry x="130" width="224" height="77" as="geometry">
+            <mxRectangle width="224" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-9" value="&lt;span style=&quot;color: rgb(18, 18, 18); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: medium; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;领域逻辑的实体类&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="oEX1PyAN_TCCJpofBaqS-6">
+          <mxGeometry x="354" width="176" height="77" as="geometry">
+            <mxRectangle width="176" height="77" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="oEX1PyAN_TCCJpofBaqS-1">
+          <mxGeometry y="155" width="530" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-11" value="数据的关联" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="oEX1PyAN_TCCJpofBaqS-10">
+          <mxGeometry width="130" height="78" as="geometry">
+            <mxRectangle width="130" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-12" value="&lt;span style=&quot;color: rgb(18, 18, 18); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: medium; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;每个字段对应表的&lt;/span&gt;&lt;span style=&quot;color: rgb(18, 18, 18); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: medium; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;column&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="oEX1PyAN_TCCJpofBaqS-10">
+          <mxGeometry x="130" width="224" height="78" as="geometry">
+            <mxRectangle width="224" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-13" value="数据之间高相关性" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="oEX1PyAN_TCCJpofBaqS-10">
+          <mxGeometry x="354" width="176" height="78" as="geometry">
+            <mxRectangle width="176" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="oEX1PyAN_TCCJpofBaqS-1">
+          <mxGeometry y="233" width="530" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-15" value="行为&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="oEX1PyAN_TCCJpofBaqS-14">
+          <mxGeometry width="130" height="78" as="geometry">
+            <mxRectangle width="130" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-16" value="无行为" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="oEX1PyAN_TCCJpofBaqS-14">
+          <mxGeometry x="130" width="224" height="78" as="geometry">
+            <mxRectangle width="224" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-17" value="拥有业务域的行为逻辑" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="oEX1PyAN_TCCJpofBaqS-14">
+          <mxGeometry x="354" width="176" height="78" as="geometry">
+            <mxRectangle width="176" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-18" value="对外部依赖的耦合，外部依赖的不合理会腐蚀内部系统，这时引入了一个防腐层（ACL）的概念，用来&lt;span style=&quot;color: rgb(18, 18, 18); font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;有效的隔离外部依赖和内部逻辑。&lt;br&gt;功能：&lt;/span&gt;&lt;span style=&quot;color: rgb(18, 18, 18); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: medium; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;适配器、缓存、兜底、易测试&lt;/span&gt;&lt;span style=&quot;color: rgb(18, 18, 18); font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="120" y="780" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oEX1PyAN_TCCJpofBaqS-19" value="&lt;br&gt;由内部逻辑的变化导致内部系统改造的程度判断代码的可拓展性" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="470" y="640" width="350" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
