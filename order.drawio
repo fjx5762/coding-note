@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-17T08:23:48.573Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="wgVHCzCQNS4vxW40XUNs" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-17T08:24:02.080Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="zMcBuBEqrFG-BjhTDY7i" version="20.1.1" type="github">
   <diagram id="onWScZwHivadj_QPeKMz" name="第 1 页">
     <mxGraphModel dx="807" dy="789" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,6 +117,9 @@
         <mxCell id="3ypMHVuYMHCxheeBae_1-38" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="3ypMHVuYMHCxheeBae_1-35" target="3ypMHVuYMHCxheeBae_1-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="3ypMHVuYMHCxheeBae_1-59" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="3ypMHVuYMHCxheeBae_1-35" target="3ypMHVuYMHCxheeBae_1-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3ypMHVuYMHCxheeBae_1-35" value="锁定库存&amp;nbsp;" style="whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="213" y="2067" width="120" height="60" as="geometry" />
         </mxCell>
@@ -184,6 +187,9 @@
         </mxCell>
         <mxCell id="3ypMHVuYMHCxheeBae_1-50" value="全部回滚" style="whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="733" y="2497" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ypMHVuYMHCxheeBae_1-58" value="下单成功" style="whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="213" y="2277" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
