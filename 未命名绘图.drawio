@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T02:56:17.668Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="8vdEzKTXdQQhx9Leg_bp" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T08:23:36.119Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="DubxpEprPhUFA1vglH19" version="20.2.0" type="github">
   <diagram id="sbOqU3zDapwH8D-fXj_J" name="第 1 页">
-    <mxGraphModel dx="786" dy="1071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="1053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,6 +105,24 @@
         </mxCell>
         <mxCell id="_lD3nbYeC_mDzVaN2k-Z-3" value="发起授权=》开放登陆接口=&amp;gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="130" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dB-1swMqweWZ10f8Y7Zz-1" value="auth&lt;br&gt;&lt;br&gt;改造私钥加密" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dB-1swMqweWZ10f8Y7Zz-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dB-1swMqweWZ10f8Y7Zz-2" target="dB-1swMqweWZ10f8Y7Zz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dB-1swMqweWZ10f8Y7Zz-2" value="Gateway&lt;br&gt;&lt;br&gt;改造公钥解密" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dB-1swMqweWZ10f8Y7Zz-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dB-1swMqweWZ10f8Y7Zz-3" target="dB-1swMqweWZ10f8Y7Zz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dB-1swMqweWZ10f8Y7Zz-3" value="把用户id解析出来放到请求头，" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dB-1swMqweWZ10f8Y7Zz-5" value="修改各微服务 获取用户id的方式" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
