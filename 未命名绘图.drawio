@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T08:23:36.119Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="DubxpEprPhUFA1vglH19" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-29T04:23:13.291Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="5cf1a_j49HKl326xj01h" version="20.2.0" type="github">
   <diagram id="sbOqU3zDapwH8D-fXj_J" name="第 1 页">
-    <mxGraphModel dx="786" dy="1053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -106,23 +106,55 @@
         <mxCell id="_lD3nbYeC_mDzVaN2k-Z-3" value="发起授权=》开放登陆接口=&amp;gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="130" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="dB-1swMqweWZ10f8Y7Zz-1" value="auth&lt;br&gt;&lt;br&gt;改造私钥加密" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dB-1swMqweWZ10f8Y7Zz-1" value="auth&lt;br&gt;&lt;br&gt;改造私钥加密" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dB-1swMqweWZ10f8Y7Zz-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dB-1swMqweWZ10f8Y7Zz-2" target="dB-1swMqweWZ10f8Y7Zz-3">
+        <mxCell id="dB-1swMqweWZ10f8Y7Zz-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dB-1swMqweWZ10f8Y7Zz-2" target="dB-1swMqweWZ10f8Y7Zz-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dB-1swMqweWZ10f8Y7Zz-2" value="Gateway&lt;br&gt;&lt;br&gt;改造公钥解密" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dB-1swMqweWZ10f8Y7Zz-2" value="Gateway&lt;br&gt;&lt;br&gt;改造公钥解密" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dB-1swMqweWZ10f8Y7Zz-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dB-1swMqweWZ10f8Y7Zz-3" target="dB-1swMqweWZ10f8Y7Zz-5">
+        <mxCell id="dB-1swMqweWZ10f8Y7Zz-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dB-1swMqweWZ10f8Y7Zz-3" target="dB-1swMqweWZ10f8Y7Zz-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dB-1swMqweWZ10f8Y7Zz-3" value="把用户id解析出来放到请求头，" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="dB-1swMqweWZ10f8Y7Zz-3" value="把用户id解析出来放到请求头，" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dB-1swMqweWZ10f8Y7Zz-5" value="修改各微服务 获取用户id的方式" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="dB-1swMqweWZ10f8Y7Zz-5" value="修改各微服务 获取用户id的方式" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9sg7Zdg7qvi2RsmB70zo-3" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-size:21.46pt;font-family:MicrosoftYaHei-Bold;color:rgb(52,73,94);font-weight:bold;&quot;&gt;认证过滤器 &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-size:21.46pt;font-family:SourceSansPro-SemiBold;color:rgb(52,73,94);&quot;&gt;UsernamePasswordAuthenticationFilter&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="110" width="560" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9sg7Zdg7qvi2RsmB70zo-4" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-size:21.46pt;font-family:MicrosoftYaHei-Bold;color:rgb(52,73,94);font-weight:bold;&quot;&gt;认证管理器&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-size:21.46pt;font-family:SourceSansPro-SemiBold;color:rgb(52,73,94);&quot;&gt;AuthenticationManager &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;SourceSansPro-SemiBold&quot; color=&quot;#34495e&quot;&gt;&lt;span style=&quot;font-size: 28.6133px;&quot;&gt;处理未授信的 Authentication ，&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="230" width="490" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9sg7Zdg7qvi2RsmB70zo-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9sg7Zdg7qvi2RsmB70zo-5" target="9sg7Zdg7qvi2RsmB70zo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9sg7Zdg7qvi2RsmB70zo-5" value="&lt;span style=&quot;color: rgb(52, 73, 94); font-family: SourceSansPro-SemiBold; font-size: 28.6133px; text-align: left;&quot;&gt;AuthenticationManager&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="600" width="350" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="9sg7Zdg7qvi2RsmB70zo-9" value="通过" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9sg7Zdg7qvi2RsmB70zo-6" target="9sg7Zdg7qvi2RsmB70zo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9sg7Zdg7qvi2RsmB70zo-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9sg7Zdg7qvi2RsmB70zo-6" target="9sg7Zdg7qvi2RsmB70zo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9sg7Zdg7qvi2RsmB70zo-12" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9sg7Zdg7qvi2RsmB70zo-11">
+          <mxGeometry x="-0.025" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9sg7Zdg7qvi2RsmB70zo-6" value="authenticate(未授信的Authentication )" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="710" width="250" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9sg7Zdg7qvi2RsmB70zo-8" value="已授信的Authentication" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="820" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9sg7Zdg7qvi2RsmB70zo-10" value="throw AuthenticationException" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="705" width="220" height="52.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
