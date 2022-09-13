@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-13T01:05:29.007Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="EPr1_SsmdchzUBsrPo5S" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-13T01:06:00.241Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="VHb5VrJiXW1Fyt-KIW9c" version="20.2.7" type="github">
   <diagram id="GTAcNOahQg4z8RNM0Ugo" name="第 1 页">
     <mxGraphModel dx="946" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,6 +56,9 @@
         </mxCell>
         <mxCell id="nK2M0xXwByjOGNZyM0Qb-15" value="填写退货单" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nK2M0xXwByjOGNZyM0Qb-19" value="填写销售单" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
